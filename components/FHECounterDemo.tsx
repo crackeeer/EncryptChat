@@ -37,8 +37,6 @@ export const FHECounterDemo = () => {
 
   const {
     instance: fhevmInstance,
-    status: fhevmStatus,
-    error: fhevmError,
   } = useFhevm({
     provider,
     chainId,
